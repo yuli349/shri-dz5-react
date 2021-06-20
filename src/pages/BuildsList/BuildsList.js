@@ -3,6 +3,7 @@ import {BuildItem} from '../../components/BuildItem/BuildItem';
 import {Header} from '../../components/Header/Header';
 import list from '../../assets/data/list.json';
 import { Link } from 'react-router-dom';
+import getPermission from '../../helpers/permission';
 
 import './BuildsList.scss';
 import {Modal} from "../../components/Modal/Modal";
@@ -11,8 +12,6 @@ export const BuildsList = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const [commit, setCommit] = useState('');
-    // const [commitDirty, setCommitDirty] = useState(false);
-    // const [commitError, setCommitError] = useState('Commit hash не может быть пустым');
 
     const commitHandler = (e) => {
         setCommit(e.target.value)
@@ -21,6 +20,10 @@ export const BuildsList = () => {
     function closeModal() {
         setIsModalOpen(false);
         setCommit('');
+    }
+
+    function getChunks() {
+        return getPermission() === 'mobile' ? 5 : 9;
     }
 
     function onSubmit(values) {
@@ -48,9 +51,11 @@ export const BuildsList = () => {
                             />
                         </Link>
                     ))}
+                    {list.data.length > getChunks() && (
                     <button className="ci-btn ci-btn__small list__btn">
                         <span>Show more</span>
                     </button>
+                    )}
                 </div>
             </div>
 

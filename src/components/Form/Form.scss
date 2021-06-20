@@ -57,6 +57,15 @@ input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+.form__btns {
+  display: flex;
+  align-items: flex-start;
+}
+
 .form-input {
   position: relative;
 
@@ -83,7 +92,7 @@ input::-webkit-inner-spin-button {
     height: 16px;
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 9px;
   }
 
   .label {
@@ -118,11 +127,12 @@ input::-webkit-inner-spin-button {
 
   .form__btns {
     margin-bottom: 20px;
+    display: block;
   }
 
   .form .ci-btn {
     width: 100%;
-    display: block;
+    display: flex;
   }
 
   .form .ci-btn__yellow {
