@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d86c8bb-e5b4-4212-ac70-1e4474c8f7d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/helpers/permission.js" afterDir="false" />
+    <list default="true" id="7d86c8bb-e5b4-4212-ac70-1e4474c8f7d6" name="Default Changelist" comment="add permission helper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/BuildsList/BuildsList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/BuildsList/BuildsList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shri-dz5-react.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,8 +68,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623930021141</updated>
-      <workItem from="1623930022243" duration="146030000" />
+      <workItem from="1623930022243" duration="147361000" />
     </task>
+    <task id="LOCAL-00001" summary="add permission helper">
+      <created>1624203523943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624203523943</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add permission helper" />
+    <option name="LAST_COMMIT_MESSAGE" value="add permission helper" />
   </component>
 </project>
