@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "id": "b03abbfb-488f-4b61-8412-9c988b8983a8",
+      "configurationId": "66dadb8c-c88c-427e-8afe-8e6c457e8e35",
+      "buildNumber": 8,
+      "commitMessage": "Add files via upload",
+      "commitHash": "8a5ae6873abd563deac395b73b39c339af748842",
+      "branchName": "master",
+      "authorName": "yuli349",
+      "status": "Done",
+      "start": "2021-06-20T11:04:10.823Z",
+      "duration": 2400
+    },
+    {
+      "id": "5a1481fe-05e3-4d6c-8a50-05a7813d1434",
+      "configurationId": "66dadb8c-c88c-427e-8afe-8e6c457e8e35",
+      "buildNumber": 7,
+      "commitMessage": "Add files via upload",
+      "commitHash": "8a5ae6873abd563deac395b73b39c339af748842",
+      "branchName": "master",
+      "authorName": "yuli349",
+      "status": "Waiting"
+    },
+    {
+      "id": "6bf00b7d-0d41-4d77-a9ba-abfa0c9b4adc",
+      "configurationId": "66dadb8c-c88c-427e-8afe-8e6c457e8e35",
+      "buildNumber": 6,
+      "commitMessage": "Add files via upload",
+      "commitHash": "8a5ae6873abd563deac395b73b39c339af748842",
+      "branchName": "master",
+      "authorName": "yuli349",
+      "status": "Failed",
+      "start": "2021-06-19T11:54:10.823Z",
+      "duration": 1000
+    },
+    {
+      "id": "a6763166-ab4c-411b-8d52-fa64e86b812b",
+      "configurationId": "66dadb8c-c88c-427e-8afe-8e6c457e8e35",
+      "buildNumber": 5,
+      "commitMessage": "Add files via upload",
+      "commitHash": "8a5ae6873abd563deac395b73b39c339af748842",
+      "branchName": "master",
+      "authorName": "yuli349",
+      "status": "Waiting"
+    },
+    {
+      "id": "f9959a72-8532-4fd5-ae40-3ca6cd9d1f6f",
+      "configurationId": "66dadb8c-c88c-427e-8afe-8e6c457e8e35",
+      "buildNumber": 4,
+      "commitMessage": "Add files via upload",
+      "commitHash": "39c339af748842",
+      "branchName": "master",
+      "authorName": "yuli349",
+      "status": "Done",
+      "start": "2021-06-13T10:34:10.823Z",
+      "duration": 7000
+    },
+    {
+      "id": "bc579797-cb70-4606-9e69-63ff369c3ae3",
+      "configurationId": "66dadb8c-c88c-427e-8afe-8e6c457e8e35",
+      "buildNumber": 3,
+      "commitMessage": "files via",
+      "commitHash": "3deac395b73b39c339af748842",
+      "branchName": "master",
+      "authorName": "yuli349",
+      "status": "Done",
+      "start": "2021-06-12T10:14:10.823Z",
+      "duration": 4000
+    },
+    {
+      "id": "0722ba61-e8a8-45c1-9380-0b74ccbd9c62",
+      "configurationId": "66dadb8c-c88c-427e-8afe-8e6c457e8e35",
+      "buildNumber": 2,
+      "commitMessage": "via upload",
+      "commitHash": "563deac395b73b39c339af748842",
+      "branchName": "master",
+      "authorName": "yuli349",
+      "status": "Waiting"
+    },
+    {
+      "id": "6559efa1-b6cb-4eda-b3c5-1aa90fad72e9",
+      "configurationId": "66dadb8c-c88c-427e-8afe-8e6c457e8e35",
+      "buildNumber": 1,
+      "commitMessage": "Add files",
+      "commitHash": "395b73b39c339af748842",
+      "branchName": "master",
+      "authorName": "yuli349",
+      "status": "Failed",
+      "start": "2021-06-10T11:04:10.823Z",
+      "duration": 2000
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+@import '../../sass/constants.scss';
+
+.settings {
+  width: 100%;
+  line-height: 18px;
+
+  &__title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #7F8285;
+    padding: 10px 0;
+  }
+
+  &__subtitle {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 8px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .settings {
+
+    &__title {
+      font-size: 18px;
+      padding: 12px 0;
+    }
+  }
+}
