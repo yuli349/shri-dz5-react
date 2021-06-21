@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d86c8bb-e5b4-4212-ac70-1e4474c8f7d6" name="Default Changelist" comment="add permission helper">
+    <list default="true" id="7d86c8bb-e5b4-4212-ac70-1e4474c8f7d6" name="Default Changelist" comment="add readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shri-dz5-react.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.3.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -68,7 +69,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623930021141</updated>
-      <workItem from="1623930022243" duration="147361000" />
+      <workItem from="1623930022243" duration="149477000" />
+      <workItem from="1624208847319" duration="4744000" />
     </task>
     <task id="LOCAL-00001" summary="add permission helper">
       <created>1624203523943</created>
@@ -77,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624203523943</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add readme">
+      <created>1624204748727</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1624204748727</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added useWindowResolution">
+      <created>1624280733430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624280733430</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,9 +109,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add permission helper" />
-    <option name="LAST_COMMIT_MESSAGE" value="add permission helper" />
+    <MESSAGE value="add readme" />
+    <MESSAGE value="added useWindowResolution" />
+    <option name="LAST_COMMIT_MESSAGE" value="added useWindowResolution" />
   </component>
 </project>
