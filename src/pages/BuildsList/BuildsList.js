@@ -10,7 +10,6 @@ import {Modal} from "../../components/Modal/Modal";
 
 export const BuildsList = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
-
     const [commit, setCommit] = useState('');
 
     const commitHandler = (e) => {

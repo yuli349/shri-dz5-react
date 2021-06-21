@@ -16,7 +16,7 @@ export const Settings = () => {
                 <div>
                     Configure repository connection and synchronization settings.
                 </div>
-                <Form></Form>
+                <Form/>
             </div>
         </Fragment>
     )
