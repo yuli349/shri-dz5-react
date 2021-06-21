@@ -3,7 +3,7 @@ import {BuildItem} from '../../components/BuildItem/BuildItem';
 import {Header} from '../../components/Header/Header';
 import list from '../../assets/data/list.json';
 import { Link } from 'react-router-dom';
-import getPermission from '../../helpers/permission';
+import useWindowResolution from '../../hooks/useWindowResolution';
 
 import './BuildsList.scss';
 import {Modal} from "../../components/Modal/Modal";
@@ -22,8 +22,9 @@ export const BuildsList = () => {
         setCommit('');
     }
 
-    function getChunks() {
-        return getPermission() === 'mobile' ? 5 : 9;
+    function Chunks() {
+        const resolution = useWindowResolution();
+        return resolution === 'mobile' ? 5 : 9;
     }
 
     function onSubmit(values) {
@@ -44,14 +45,14 @@ export const BuildsList = () => {
             </Header>
             <div className="list">
                 <div className="list__builds">
-                    {list.data.map((build) => (
+                    {list.data.slice(0, Chunks()).map((build) => (
                         <Link className="build" key={build.buildNumber} to={`/build/${build.buildNumber}`}>
                             <BuildItem
                                 build={build}
                             />
                         </Link>
                     ))}
-                    {list.data.length > getChunks() && (
+                    {list.data.length > Chunks() && (
                     <button className="ci-btn ci-btn__small list__btn">
                         <span>Show more</span>
                     </button>
